@@ -1,9 +1,9 @@
-Установка Git
+## Установка Git
 
 sudo apt update
 sudo apt install git
 
-Установка Docker
+## Установка Docker
 
 1. Ообновить существующий список пакетов:
 sudo apt update
@@ -22,7 +22,7 @@ sudo apt install docker-ce
 8. Docker должен быть установлен, демон-процесс запущен, а для процесса активирован запуск при загрузке. Проверить, что он запущен:
 sudo systemctl status docker
 
-Установка Docker Compose
+## Установка Docker Compose
 
 1. Проверить текущий выпуск и при необходимости обновите его с помощью следующей команды:
 sudo curl -L https://github.com/docker/compose/releases/download/1.25.3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
