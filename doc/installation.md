@@ -40,10 +40,15 @@ sudo systemctl status docker
 ## Установка Docker Compose
 
 1. Проверить текущий выпуск и при необходимости обновите его с помощью следующей команды:
+
 sudo curl -L https://github.com/docker/compose/releases/download/1.25.3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
 2. Настроить разрешения:
+
 sudo chmod +x /usr/local/bin/docker-compose
+
 3. Проверить, что установка прошла успешно, с помощью проверки версии:
+
 docker-compose --version
 
 
